@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 
-export default class Login extends Component{
+ class Login extends Component{
 constructor() {
     super()
     this.state={
@@ -28,3 +28,4 @@ alertUserPass(user, pass){
         )
 }
 }
+export default Login;
