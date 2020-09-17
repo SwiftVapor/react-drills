@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-export default class Image extends Component {
+class Image extends Component {
     render(){
         return (
             <section>
@@ -8,3 +8,4 @@ export default class Image extends Component {
         )
     }
 }
+export default Image
