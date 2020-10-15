@@ -4,6 +4,7 @@ class Image extends Component {
         return (
             <section>
                 <img src= {this.props.img}/>
+                <div>Inside the bean</div>
             </section>
         )
     }
